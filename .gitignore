@@ -1,0 +1,12 @@
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build outputs
+out/
+production/
+
+# System files
+.DS_Store
