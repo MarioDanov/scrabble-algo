@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-This Java program processes Scrabble words to find valid words that can be formed by successively removing one letter from longer words, starting with single-letter words "I" and "A". The solution uses recursive filtering to validate words of different lengths up to 9 characters.
+This Java program processes Scrabble words to find valid words that can be formed by successively removing one letter from longer words. The solution uses recursive filtering to validate words of different lengths up to 9 characters.
 
 ## Features
 - Loads words from a remote text file
@@ -23,8 +23,8 @@ This Java program processes Scrabble words to find valid words that can be forme
 
 ### Loading Words
 - **Fetches words** from a GitHub-hosted text file
-- **Filters words** to include only those containing 'A' or 'I'
-- **Groups words** by their length using a dictionary/map
+- **Filters words** to include only those containing 'A' or 'I' and with less or equal to 9 letters
+- **Groups words** by their length using a map
 
 ### Base Cases
 - **Pre-populates valid 1-letter words**: "A" and "I"
@@ -48,7 +48,7 @@ For each word length (3-9):
 
 ## Example Output
 ```text
-Time: 2.345; Number of words: 4321
+Time: 1.226; Number of words: 21219
 ```
 
 Words are loaded from:
