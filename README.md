@@ -48,7 +48,7 @@ For each word length (3-9):
 
 ## Example Output
 ```text
-Time: 1.226; Number of words: 21219
+Time: 0.726; Number of words: 21219
 ```
 
 Words are loaded from:

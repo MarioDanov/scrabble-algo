@@ -19,7 +19,7 @@ public class Main {
         for (int n = 2; n <= 9; n++) {
             Set<String> filteredWords = filterWordsRecursively(words, n);
             filteredWordsCount += filteredWords.size();
-            mapFilteredWords.computeIfAbsent(n, k -> new HashSet<>()).addAll(filteredWords);
+            //mapFilteredWords.computeIfAbsent(n, k -> new HashSet<>()).addAll(filteredWords);
         }
 
         long endTime = System.currentTimeMillis();
